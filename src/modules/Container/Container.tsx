@@ -1,13 +1,13 @@
-// tsrafc
-import React from 'react'
+import { ReactNode } from 'react'
 import style from './Container.module.scss';
 
-type Props = {}
 
-export const Container = (props: Props) => {
-  return (
-    <div className={style.container}>
-      Container
-    </div>
-  )
+type Props = {
+  children: ReactNode;
 }
+
+export const Container = ({children}: Props) => {
+  return (
+    <div className={style.container}>{children}</div>
+  )
+};

@@ -1,0 +1,23 @@
+@import url('~normalize.css');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: #f0f6ff;
+}
+
+
+::selection {
+  background-color: #666666;
+  color: #26ff00;
+}

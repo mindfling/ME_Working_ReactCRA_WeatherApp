@@ -1,0 +1,7 @@
+alias a='alias'
+alias graph='log --graph'
+alias ll='ls -l'
+alias log='git log --oneline'
+alias ls='ls -F --color=auto --show-control-chars'
+alias node='winpty node.exe'
+alias winget='winpty winget.exe'

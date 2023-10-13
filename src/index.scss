@@ -10,7 +10,6 @@ body {
   min-width: 320px;
   width: 100%;
   min-height: 100vh;
-  margin: 0;
   font-family: 'Arial', sans-serif;
   background-color: #111;
   color: #f0f6ff;
@@ -18,6 +17,6 @@ body {
 
 
 ::selection {
-  background-color: #666666;
-  color: #26ff00;
+  background-color: dimgrey;
+  color: lawngreen;
 }
